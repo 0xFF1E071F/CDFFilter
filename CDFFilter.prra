@@ -1,0 +1,22 @@
+[Version]
+Version=3000
+[Project]
+Assembler=Masm
+Path=C:\VC\Projects\CDFFilter
+Group=2,-1,0,1,CDFFilter,-2,-1,1,Assembly,-3,-1,1,Include,-4,-1,1,Misc,-5,-1,1,Resource
+F1=-2,2,1,-10,-32,1737,840,259,CDFFilter.asm
+F2=-5,2,4,44,44,600,400,0,CDFFilter.rc
+Open=1,2,1
+Api=
+C1=64433
+B1=
+M1=
+C2=
+B2=
+M2=
+[Make]
+Make=0
+0=Window Release,'/v "$R"',"$R.res",'/c /coff /Cp "$C"',"$C.obj",'/SUBSYSTEM:WINDOWS /RELEASE /VERSION:4.0 /OUT:$O $C $M $R',"$C.exe",'',
+Delete=0
+IncBuild=0
+Run=0,'',''
